@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <h2>!This is test site</h2>
+    <div>
+       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, ullam!</p>  
+    </div>
+
+    @@include('_header.html')
+
+    <!-- подключение картинки -->
+    <!-- <picture>
+      <source srcset="img/face.webp" type="image/webp">
+      <img src="img/face.png" alt=""> 
+    </picture> -->
+    <!-- теперь при установки плагина gulp-webp-html - webp каринка подключается автоматом -->
+    <img src="img/face.png" alt="">
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 style_1">Привет. Я использую Gulp, sass и BrowserSync</div>
+            <div class="col-6 style_2">Привет. Я использую Gulp, sass и BrowserSync</div>
+        </div>
+    </div>
+
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>
